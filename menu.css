@@ -1,0 +1,84 @@
+/* CSS for Current Reads page */
+body {
+  background-color: rgb(229, 151, 86); /* Set the background color to black */
+  color: green; /* Set the text color to green */
+  font-family: Arial, sans-serif;
+  text-align: center; /* Specify a font-family for text */
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* Style the list items */
+ul li {
+  margin-right: 45px;
+  color: rgb(0, 0, 0);
+  /* Add spacing between list items */
+}
+
+/* Style the book titles within the list */
+ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #41644a;
+  /* Set link color to green */
+}
+
+/* Style the images within the list */
+ol img {
+  display: block; /* Make images block-level elements */
+  margin: 10px 0; /* Add spacing around images */
+  display: block;
+  margin-right: 15px;
+}
+
+/* Style the book titles in the list */
+ol li {
+  font-size: 24px; /* Increase font size for book titles */
+  margin-right: 45px;
+  color: #111;
+  align-items: center;
+  text-align: center;
+  padding: 0.5px; /* Add spacing between book titles */
+}
+
+ol {
+  text-align: center; /* Center the numbers horizontally */
+  list-style-position: inside;
+  margin-top: 70px; /* Place the numbers inside the list items */
+}
+
+/* Style the author names */
+ol h3 {
+  font-size: 18px; /* Set font size for author names */
+  margin: 10px 0;
+  color: rgb(53, 7, 181);
+  margin-right: 45px;
+  /* Add spacing below author names */
+}
+
+/* Style the book descriptions */
+ol p {
+  margin: 10px 0;
+  color: aquamarine;
+  margin-right: 45px;
+  /* Add spacing below paragraphs */
+}
+
+/* Style the "Buy from Amazon" links */
+ol a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #41644a;
+  margin-right: 45px;
+  /* Set link color to green */
+}
+
+/* Style the header tags */
+h1,
+h2 {
+  background-color: #263a29; /* Set background color for headers to green */
+  color: rgb(254, 221, 221); /* Set text color for headers to black */
+  padding: 10px; /* Add padding to headers */
+  margin: 20px 0; /* Add spacing above and below headers */
+}
