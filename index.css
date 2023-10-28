@@ -74,6 +74,25 @@ body {
   font-weight: bold;
 }
 
+.registration h2 {
+  margin-top: -20px;
+}
+
+.registration iframe {
+  width: 100%;
+  height: 500; /* Make the image responsive and fill its container */
+  max-height: 155px; /* Limit the maximum height (adjust as needed) */
+  object-fit: cover; /* Cover the entire container, cropping if necessary */
+  display: block; /* Remove any extra spacing or margins around the image */
+  margin: 10px auto;
+}
+
+.registration h5 {
+  margin-top: -20px;
+  border-color: #006a09;
+  text-shadow: #111;
+}
+
 .registration img {
   display: block; /* Ensure the image is centered */
   margin: -25px auto;
@@ -96,6 +115,15 @@ body {
   border: 2.2px solid #ccc;
   border-radius: 3px;
   border-color: #618264;
+  text-align: left;
+}
+
+::placeholder {
+  color: #111;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  width: 110%;
+  margin-left: 15px;
 }
 
 .registration button {
@@ -132,4 +160,21 @@ p {
   font-family: Monospace;
   font-size: 11px;
   padding: 2px;
+}
+
+/* CSS for the image within the "chaibook" div */
+.chaibook img {
+  width: 65%;
+  height: 500; /* Make the image responsive and fill its container */
+  max-height: 155px; /* Limit the maximum height (adjust as needed) */
+  object-fit: cover; /* Cover the entire container, cropping if necessary */
+  display: block; /* Remove any extra spacing or margins around the image */
+  margin: 10px auto; /* Center the image horizontally with 10px top and bottom margin */
+}
+
+#gender-select {
+  background-color: #111;
+  color: white; /* Text color */
+  padding: 5px; /* Adjust as needed */
+  border: none; /* Remove default border */
 }
